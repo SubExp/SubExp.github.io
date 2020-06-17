@@ -1,0 +1,50 @@
+[
+	{
+	"first_A" : "earth_40.mp4",
+	"second_B" : "earth_40_after.mp4"
+	},
+	{
+	"first_A" : "can_30_after.mp4",
+	"second_B" : "can_30.mp4"
+	},
+	{
+	"first_A" : "can_20.mp4",
+	"second_B" : "can_20_after.mp4"
+	},
+	{
+	"first_A" : "can_50.mp4",
+	"second_B" : "can_50_after.mp4"
+	},
+	{
+	"first_A" : "exercise_40_after.mp4",
+	"second_B" : "exercise_40.mp4"
+	},
+	{
+	"first_A" : "exercise_30.mp4",
+	"second_B" : "exercise_30_after.mp4"
+	},
+	{
+	"first_A" : "exercise_50.mp4",
+	"second_B" : "exercise_50_after.mp4"
+	},
+	{
+	"first_A" : "can_40_after.mp4",
+	"second_B" : "can_40.mp4"
+	},
+	{
+	"first_A" : "earth_50_after.mp4",
+	"second_B" : "earth_50.mp4"
+	},
+	{
+	"first_A" : "earth_20.mp4",
+	"second_B" : "earth_20_after.mp4"
+	},
+	{
+	"first_A" : "exercise_20_after.mp4",
+	"second_B" : "exercise_20.mp4"
+	},
+	{
+	"first_A" : "earth_30.mp4",
+	"second_B" : "earth_30_after.mp4"
+	}
+]
