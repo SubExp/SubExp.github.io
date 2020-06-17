@@ -993,7 +993,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     function MainComponent_mat_radio_button_162_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-radio-button", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-radio-button", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
 
@@ -1125,7 +1125,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-main"]],
       decls: 175,
       vars: 39,
-      consts: [[1, "form-group"], [1, "title"], [3, "hidden"], [1, "Subtitle"], [2, "text-align", "center"], [1, "example-full-width"], ["matInput", "", "type", "text", 3, "ngModel", "ngModelChange"], ["matInput", "", "type", "number", 3, "ngModel", "ngModelChange"], ["required", "", 3, "formControl", "value", "valueChange"], ["value", "option1"], ["value", "option2"], ["value", "option3"], [4, "ngIf"], ["cols", "2", "rowHeight", "2:2"], [3, "colspan", "rowspan"], [1, "SmallTitle"], ["src", "../assets/videos/redandblack_40_after.mp4"], ["src", "../assets/videos/redandblack_40.mp4"], ["src", "../assets/videos/redandblack_30_after.mp4"], ["src", "../assets/videos/redandblack_30.mp4"], ["src", "../assets/videos/redandblack_20_after.mp4"], ["src", "../assets/videos/redandblack_20.mp4"], ["mat-stroked-button", "", "color", "primary", 3, "click"], ["cols", "9", "rowHeight", "1:4"], [3, "colspan"], [3, "src"], ["mat-stroked-button", "", "color", "primary", 3, "disabled", "click"], ["id", "example-radio-group-label"], ["aria-labelledby", "example-radio-group-label", 1, "example-radio-group", 3, "ngModel", "ngModelChange"], ["class", "example-radio-button", 3, "value", 4, "ngFor", "ngForOf"], [2, "color", "red", 3, "hidden"], [2, "text-align", "center", 3, "hidden"], ["download", "my-json-object.json", 3, "href"], [1, "example-radio-button", 3, "value"]],
+      consts: [[1, "form-group"], [1, "title"], [3, "hidden"], [1, "Subtitle"], [2, "text-align", "center"], [1, "example-full-width"], ["matInput", "", "type", "text", 3, "ngModel", "ngModelChange"], ["matInput", "", "type", "number", 3, "ngModel", "ngModelChange"], ["required", "", 3, "formControl", "value", "valueChange"], ["value", "option1"], ["value", "option2"], ["value", "option3"], [4, "ngIf"], ["cols", "2", "rowHeight", "2:2"], [3, "colspan", "rowspan"], [1, "SmallTitle"], ["src", "../assets/videos/redandblack_40_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_40.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_30_after.mp4", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_30.mp4", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_20_after.mp4", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_20.mp4", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_40.mp4", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["src", "../assets/videos/redandblack_40_after.mp4", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["mat-stroked-button", "", "color", "primary", 3, "click"], ["cols", "9", "rowHeight", "1:4"], [3, "colspan"], ["muted", "", "autoplay", "", "loop", "", "playsinline", "", 3, "src"], ["mat-stroked-button", "", "color", "primary", 3, "disabled", "click"], ["id", "example-radio-group-label"], ["aria-labelledby", "example-radio-group-label", 1, "example-radio-group", 3, "ngModel", "ngModelChange"], ["class", "example-radio-button", 3, "value", 4, "ngFor", "ngForOf"], [2, "color", "red", 3, "hidden"], [2, "text-align", "center", 3, "hidden"], ["download", "my-json-object.json", 3, "href"], [1, "example-radio-button", 3, "value"]],
       template: function MainComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -1250,7 +1250,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "img", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "video", 16);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1266,7 +1266,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](42, "img", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](42, "video", 17);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1312,7 +1312,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "img", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "video", 18);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1328,7 +1328,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](65, "img", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](65, "video", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1374,7 +1374,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](83, "img", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](83, "video", 20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1390,7 +1390,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](88, "img", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](88, "video", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1436,7 +1436,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](106, "img", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](106, "video", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1452,7 +1452,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](111, "img", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](111, "video", 18);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1498,7 +1498,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](129, "img", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](129, "video", 22);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1514,7 +1514,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](134, "img", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](134, "video", 23);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1530,7 +1530,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](137, "div", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](138, "button", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](138, "button", 24);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_138_listener() {
             return ctx.FinishTraining();
@@ -1552,9 +1552,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](142, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](143, "mat-grid-list", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](143, "mat-grid-list", 25);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](144, "mat-grid-tile", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](144, "mat-grid-tile", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](145, "div");
 
@@ -1564,13 +1564,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](148, "img", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](148, "video", 27);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](149, "mat-grid-tile", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](149, "mat-grid-tile", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](150, "div");
 
@@ -1580,17 +1580,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](153, "img", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](153, "video", 27);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](154, "mat-grid-tile", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](154, "mat-grid-tile", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](155, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](156, "button", 26);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](156, "button", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_156_listener() {
             return ctx.StartTest();
@@ -1600,7 +1600,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](158, "div", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](158, "div", 29);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](159, "Make your choice:");
 
@@ -1608,25 +1608,25 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](160, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](161, "mat-radio-group", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](161, "mat-radio-group", 30);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function MainComponent_Template_mat_radio_group_ngModelChange_161_listener($event) {
             return ctx.userchoice = $event;
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](162, MainComponent_mat_radio_button_162_Template, 2, 2, "mat-radio-button", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](162, MainComponent_mat_radio_button_162_Template, 2, 2, "mat-radio-button", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](163, "div", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](163, "div", 32);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](164, " Please make a choice");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](165, "button", 26);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](165, "button", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_165_listener() {
             return ctx.JumpTo();
@@ -1644,7 +1644,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](167, "div", 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](167, "div", 33);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](168, "h1");
 
@@ -1658,7 +1658,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](172, "a", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](172, "a", 34);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](173, "button");
 
@@ -1788,7 +1788,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__["MatLabel"], _angular_material_input__WEBPACK_IMPORTED_MODULE_7__["MatInput"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgModel"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NumberValueAccessor"], _angular_material_select__WEBPACK_IMPORTED_MODULE_8__["MatSelect"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["RequiredValidator"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControlDirective"], _angular_material_core__WEBPACK_IMPORTED_MODULE_9__["MatOption"], _angular_common__WEBPACK_IMPORTED_MODULE_10__["NgIf"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_11__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_11__["MatGridTile"], _angular_material_button__WEBPACK_IMPORTED_MODULE_12__["MatButton"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_13__["MatRadioGroup"], _angular_common__WEBPACK_IMPORTED_MODULE_10__["NgForOf"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__["MatError"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_13__["MatRadioButton"]],
-      styles: [".btn[_ngcontent-%COMP%] {\n    background-color: DodgerBlue; \n  border: none; \n  cursor: pointer; \n}\n\nimg[_ngcontent-%COMP%] {\n    padding: 2px;\n    width: 96%;\n  }\n\nmat-grid-tile[_ngcontent-%COMP%] {\n    background: white;\n}\n\n.ForAlert[_ngcontent-%COMP%] {\n    width: 250px;\n    height: 60px;\n    position: absolute;\n    left:50%; \n    top:60%; \n    transform:translate(-50%,-50%);\n}\n\n.title[_ngcontent-%COMP%]{\n  text-align: center;\n  top: 10%;\n  bottom: 0;\n  margin-top:20px ;\n  font-size: 50px; \n}\n\n.Subtitle[_ngcontent-%COMP%]{\n  text-align: center;\n  font-size: 35px;\n}\n\n.SmallTitle[_ngcontent-%COMP%]{\n  text-align: center;\n  font-size: 25px;\n}\n\n.example-radio-group[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  margin: 15px 0;\n}\n\n.example-radio-button[_ngcontent-%COMP%] {\n  margin: 5px;\n}\n\n.example-form-field[_ngcontent-%COMP%] {\n  width: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSw0QkFBNEIsRUFBRSxvQkFBb0I7RUFDcEQsWUFBWSxFQUFFLG1CQUFtQjtFQUNqQyxlQUFlLEVBQUUsMkJBQTJCO0FBQzlDOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFVBQVU7RUFDWjs7QUFFRjtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixPQUFPO0lBQ1AsOEJBQThCO0FBQ2xDOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUixTQUFTO0VBQ1QsZ0JBQWdCO0VBQ2hCLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsV0FBVztBQUNiOztBQUVBO0VBQ0UsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnRuIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBEb2RnZXJCbHVlOyAvKiBCbHVlIGJhY2tncm91bmQgKi9cbiAgYm9yZGVyOiBub25lOyAvKiBSZW1vdmUgYm9yZGVycyAqL1xuICBjdXJzb3I6IHBvaW50ZXI7IC8qIE1vdXNlIHBvaW50ZXIgb24gaG92ZXIgKi9cbn1cblxuaW1nIHtcbiAgICBwYWRkaW5nOiAycHg7XG4gICAgd2lkdGg6IDk2JTtcbiAgfVxuXG5tYXQtZ3JpZC10aWxlIHtcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbn1cblxuLkZvckFsZXJ0IHtcbiAgICB3aWR0aDogMjUwcHg7XG4gICAgaGVpZ2h0OiA2MHB4O1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBsZWZ0OjUwJTsgXG4gICAgdG9wOjYwJTsgXG4gICAgdHJhbnNmb3JtOnRyYW5zbGF0ZSgtNTAlLC01MCUpO1xufVxuXG4udGl0bGV7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgdG9wOiAxMCU7XG4gIGJvdHRvbTogMDtcbiAgbWFyZ2luLXRvcDoyMHB4IDtcbiAgZm9udC1zaXplOiA1MHB4OyBcbn1cblxuLlN1YnRpdGxle1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogMzVweDtcbn1cblxuLlNtYWxsVGl0bGV7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiAyNXB4O1xufVxuXG4uZXhhbXBsZS1yYWRpby1ncm91cCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIG1hcmdpbjogMTVweCAwO1xufVxuXG4uZXhhbXBsZS1yYWRpby1idXR0b24ge1xuICBtYXJnaW46IDVweDtcbn1cblxuLmV4YW1wbGUtZm9ybS1maWVsZCB7XG4gIHdpZHRoOiAyMDBweDtcbn0iXX0= */"]
+      styles: [".btn[_ngcontent-%COMP%] {\n    background-color: DodgerBlue; \n  border: none; \n  cursor: pointer; \n}\n\nimg[_ngcontent-%COMP%] {\n    padding: 2px;\n    width: 96%;\n  }\n\nvideo[_ngcontent-%COMP%] {\n    padding: 2px;\n    width: 96%;\n}\n\nembed[_ngcontent-%COMP%] {\n  padding: 2px;\n  width: 800px;\n  height: 800px;\n}\n\nmat-grid-tile[_ngcontent-%COMP%] {\n    background: white;\n}\n\n.ForAlert[_ngcontent-%COMP%] {\n    width: 250px;\n    height: 60px;\n    position: absolute;\n    left:50%; \n    top:60%; \n    transform:translate(-50%,-50%);\n}\n\n.title[_ngcontent-%COMP%]{\n  text-align: center;\n  top: 10%;\n  bottom: 0;\n  margin-top:20px ;\n  font-size: 50px; \n}\n\n.Subtitle[_ngcontent-%COMP%]{\n  text-align: center;\n  font-size: 35px;\n}\n\n.SmallTitle[_ngcontent-%COMP%]{\n  text-align: center;\n  font-size: 25px;\n}\n\n.example-radio-group[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  margin: 15px 0;\n}\n\n.example-radio-button[_ngcontent-%COMP%] {\n  margin: 5px;\n}\n\n.example-form-field[_ngcontent-%COMP%] {\n  width: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSw0QkFBNEIsRUFBRSxvQkFBb0I7RUFDcEQsWUFBWSxFQUFFLG1CQUFtQjtFQUNqQyxlQUFlLEVBQUUsMkJBQTJCO0FBQzlDOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFVBQVU7RUFDWjs7QUFFRjtJQUNJLFlBQVk7SUFDWixVQUFVO0FBQ2Q7O0FBRUE7RUFDRSxZQUFZO0VBQ1osWUFBWTtFQUNaLGFBQWE7QUFDZjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixPQUFPO0lBQ1AsOEJBQThCO0FBQ2xDOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUixTQUFTO0VBQ1QsZ0JBQWdCO0VBQ2hCLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsV0FBVztBQUNiOztBQUVBO0VBQ0UsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnRuIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBEb2RnZXJCbHVlOyAvKiBCbHVlIGJhY2tncm91bmQgKi9cbiAgYm9yZGVyOiBub25lOyAvKiBSZW1vdmUgYm9yZGVycyAqL1xuICBjdXJzb3I6IHBvaW50ZXI7IC8qIE1vdXNlIHBvaW50ZXIgb24gaG92ZXIgKi9cbn1cblxuaW1nIHtcbiAgICBwYWRkaW5nOiAycHg7XG4gICAgd2lkdGg6IDk2JTtcbiAgfVxuXG52aWRlbyB7XG4gICAgcGFkZGluZzogMnB4O1xuICAgIHdpZHRoOiA5NiU7XG59XG5cbmVtYmVkIHtcbiAgcGFkZGluZzogMnB4O1xuICB3aWR0aDogODAwcHg7XG4gIGhlaWdodDogODAwcHg7XG59XG5cbm1hdC1ncmlkLXRpbGUge1xuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xufVxuXG4uRm9yQWxlcnQge1xuICAgIHdpZHRoOiAyNTBweDtcbiAgICBoZWlnaHQ6IDYwcHg7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGxlZnQ6NTAlOyBcbiAgICB0b3A6NjAlOyBcbiAgICB0cmFuc2Zvcm06dHJhbnNsYXRlKC01MCUsLTUwJSk7XG59XG5cbi50aXRsZXtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB0b3A6IDEwJTtcbiAgYm90dG9tOiAwO1xuICBtYXJnaW4tdG9wOjIwcHggO1xuICBmb250LXNpemU6IDUwcHg7IFxufVxuXG4uU3VidGl0bGV7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiAzNXB4O1xufVxuXG4uU21hbGxUaXRsZXtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDI1cHg7XG59XG5cbi5leGFtcGxlLXJhZGlvLWdyb3VwIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgbWFyZ2luOiAxNXB4IDA7XG59XG5cbi5leGFtcGxlLXJhZGlvLWJ1dHRvbiB7XG4gIG1hcmdpbjogNXB4O1xufVxuXG4uZXhhbXBsZS1mb3JtLWZpZWxkIHtcbiAgd2lkdGg6IDIwMHB4O1xufSJdfQ== */"]
     });
     /*@__PURE__*/
 
