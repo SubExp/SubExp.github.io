@@ -1087,31 +1087,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                       _this3.show_images = _this3.orders[_this3.file_index].IfImage == "true";
 
-                      (function () {
-                        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this3, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-                          return regeneratorRuntime.wrap(function _callee$(_context) {
-                            while (1) {
-                              switch (_context.prev = _context.next) {
-                                case 0:
-                                  // Do something before delay
-                                  console.log('before delay');
-                                  _context.next = 3;
-                                  return this.delay(1000);
+                      if (_this3.show_images == false) {
+                        (function () {
+                          return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this3, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+                            return regeneratorRuntime.wrap(function _callee$(_context) {
+                              while (1) {
+                                switch (_context.prev = _context.next) {
+                                  case 0:
+                                    // Do something before delay
+                                    console.log('before delay');
+                                    _context.next = 3;
+                                    return this.delay(1000);
 
-                                case 3:
-                                  // Do something after
-                                  console.log('after delay');
-                                  this.vidA.nativeElement.play();
-                                  this.vidB.nativeElement.play();
+                                  case 3:
+                                    // Do something after
+                                    console.log('after delay');
+                                    this.vidA.nativeElement.play();
+                                    this.vidB.nativeElement.play();
 
-                                case 6:
-                                case "end":
-                                  return _context.stop();
+                                  case 6:
+                                  case "end":
+                                    return _context.stop();
+                                }
                               }
-                            }
-                          }, _callee, this);
-                        }));
-                      })();
+                            }, _callee, this);
+                          }));
+                        })();
+                      }
                     });
 
                   case 7:
@@ -1196,31 +1198,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               this.src_video_path2 = "../assets/videos/" + this.orders[this.file_index].second_B;
               this.show_images = this.orders[this.file_index].IfImage == "true"; //this.show_images=this.orders[this.file_index].IfImage;
 
-              (function () {
-                return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this5, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
-                  return regeneratorRuntime.wrap(function _callee4$(_context4) {
-                    while (1) {
-                      switch (_context4.prev = _context4.next) {
-                        case 0:
-                          // Do something before delay
-                          console.log('before delay');
-                          _context4.next = 3;
-                          return this.delay(1000);
+              if (this.show_images == false) {
+                (function () {
+                  return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this5, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+                    return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                      while (1) {
+                        switch (_context4.prev = _context4.next) {
+                          case 0:
+                            // Do something before delay
+                            console.log('before delay');
+                            _context4.next = 3;
+                            return this.delay(1000);
 
-                        case 3:
-                          // Do something after
-                          console.log('after delay');
-                          this.vidA.nativeElement.play();
-                          this.vidB.nativeElement.play();
+                          case 3:
+                            // Do something after
+                            console.log('after delay');
+                            this.vidA.nativeElement.play();
+                            this.vidB.nativeElement.play();
 
-                        case 6:
-                        case "end":
-                          return _context4.stop();
+                          case 6:
+                          case "end":
+                            return _context4.stop();
+                        }
                       }
-                    }
-                  }, _callee4, this);
-                }));
-              })();
+                    }, _callee4, this);
+                  }));
+                })();
+              }
             } //this.Ifvalid = false;
             //this.alertService.error("Try again!");
 

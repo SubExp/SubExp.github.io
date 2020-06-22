@@ -576,15 +576,17 @@ class MainComponent {
                 this.src_video_path2 = "../assets/videos/" + this.orders[this.file_index].second_B;
                 //this.show_images=this.orders[this.file_index].IfImage;
                 this.show_images = (this.orders[this.file_index].IfImage == "true");
-                (() => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-                    // Do something before delay
-                    console.log('before delay');
-                    yield this.delay(1000);
-                    // Do something after
-                    console.log('after delay');
-                    this.vidA.nativeElement.play();
-                    this.vidB.nativeElement.play();
-                }))();
+                if (this.show_images == false) {
+                    (() => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+                        // Do something before delay
+                        console.log('before delay');
+                        yield this.delay(1000);
+                        // Do something after
+                        console.log('after delay');
+                        this.vidA.nativeElement.play();
+                        this.vidB.nativeElement.play();
+                    }))();
+                }
             });
         });
     }
@@ -637,15 +639,17 @@ class MainComponent {
                 this.src_video_path2 = "../assets/videos/" + this.orders[this.file_index].second_B;
                 this.show_images = (this.orders[this.file_index].IfImage == "true");
                 //this.show_images=this.orders[this.file_index].IfImage;
-                (() => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-                    // Do something before delay
-                    console.log('before delay');
-                    yield this.delay(1000);
-                    // Do something after
-                    console.log('after delay');
-                    this.vidA.nativeElement.play();
-                    this.vidB.nativeElement.play();
-                }))();
+                if (this.show_images == false) {
+                    (() => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+                        // Do something before delay
+                        console.log('before delay');
+                        yield this.delay(1000);
+                        // Do something after
+                        console.log('after delay');
+                        this.vidA.nativeElement.play();
+                        this.vidB.nativeElement.play();
+                    }))();
+                }
             }
             //this.Ifvalid = false;
             //this.alertService.error("Try again!");
