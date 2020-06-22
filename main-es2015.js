@@ -543,7 +543,7 @@ class MainComponent {
         this.file_index = 0;
         this.save_result = new _result__WEBPACK_IMPORTED_MODULE_2__["result_all"]();
         this.GenderControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required);
-        this.choices = ['A is lot better than B', 'A is a little better than B', 'A and B are similar', 'A is a little worse than B', 'A is a lot worse than B'];
+        this.choices = ['Left is lot better than Right', 'Left is a little better than Right', 'Left and Right are similar', 'Left is a little worse than Right', 'Left is a lot worse than Right'];
     }
     ngOnInit() {
         this.save_result.name = "";
@@ -625,7 +625,7 @@ class MainComponent {
             this.save_result.recorded_result[this.file_index].id = this.file_index;
             this.save_result.recorded_result[this.file_index].choice = this.userchoice;
             this.file_index = this.file_index + 1;
-            if (this.file_index === 12) {
+            if (this.file_index === 116) {
                 console.log(this.save_result);
                 this.hide_testing_session = true;
                 this.hide_save_session = false;
