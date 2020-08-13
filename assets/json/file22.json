@@ -1,187 +1,27 @@
 [
 	{
-	"first_A" : "basketball_20.mp4",
-	"second_B" : "basketball_20_after.mp4",
+	"first_A" : "basketball_30.mp4",
+	"second_B" : "basketball_30_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "can_30_after.mp4",
-	"second_B" : "can_30.mp4",
+	"first_A" : "dancer_frame_30_after.mp4",
+	"second_B" : "dancer_frame_30.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "exercise_40_after.mp4",
-	"second_B" : "exercise_40.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "longdress_50_after_1.png",
-	"second_B" : "longdress_50_1.png",
+	"first_A" : "can_30_after_1.png",
+	"second_B" : "can_30_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "statue_50_after.mp4",
-	"second_B" : "statue_50.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "soldier_50.mp4",
-	"second_B" : "soldier_50_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "skull_30_after_2.png",
-	"second_B" : "skull_30_2.png",
+	"first_A" : "soldier_30_1.png",
+	"second_B" : "soldier_30_after_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "earth_40_1.png",
-	"second_B" : "earth_40_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_30_after_1.png",
-	"second_B" : "skull_30_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "soldier_40.mp4",
-	"second_B" : "soldier_40_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "longdress_50.mp4",
-	"second_B" : "longdress_50_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "earth_40_after.mp4",
-	"second_B" : "earth_40.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "exercise_50_after.mp4",
-	"second_B" : "exercise_50.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "statue_20_after_1.png",
-	"second_B" : "statue_20_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_20_2.png",
-	"second_B" : "can_20_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_20_2.png",
-	"second_B" : "basketball_20_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "exercise_50_1.png",
-	"second_B" : "exercise_50_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_50_after_1.png",
-	"second_B" : "can_50_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_30_after.mp4",
-	"second_B" : "skull_30.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "soldier_30_after_1.png",
-	"second_B" : "soldier_30_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_40_after.mp4",
-	"second_B" : "basketball_40.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "earth_50_1.png",
-	"second_B" : "earth_50_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "statue_30_after.mp4",
-	"second_B" : "statue_30.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "longdress_50_after_2.png",
-	"second_B" : "longdress_50_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "statue_50_after_2.png",
-	"second_B" : "statue_50_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "exercise_30_after.mp4",
-	"second_B" : "exercise_30.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "longdress_20_after.mp4",
-	"second_B" : "longdress_20.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "soldier_30_after_2.png",
-	"second_B" : "soldier_30_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_40_after.mp4",
-	"second_B" : "can_40.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "skull_50_1.png",
-	"second_B" : "skull_50_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_50_after_1.png",
-	"second_B" : "basketball_50_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_30.mp4",
-	"second_B" : "earth_30_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "statue_20_2.png",
-	"second_B" : "statue_20_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "soldier_30_after.mp4",
-	"second_B" : "soldier_30.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "longdress_30_after_1.png",
-	"second_B" : "longdress_30_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_50_2.png",
-	"second_B" : "earth_50_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_20_1.png",
-	"second_B" : "skull_20_after_1.png",
+	"first_A" : "dancer_30_after_2.png",
+	"second_B" : "dancer_30_2.png",
 	"IfImage" : "true"
 	},
 	{
@@ -190,34 +30,14 @@
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "can_20_1.png",
-	"second_B" : "can_20_after_1.png",
+	"first_A" : "dancer_20_1.png",
+	"second_B" : "dancer_20_after_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "exercise_30_1.png",
-	"second_B" : "exercise_30_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "statue_30_2.png",
-	"second_B" : "statue_30_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "soldier_50_after_1.png",
-	"second_B" : "soldier_50_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_30.mp4",
-	"second_B" : "basketball_30_after.mp4",
+	"first_A" : "longdress_frame_30_after.mp4",
+	"second_B" : "longdress_frame_30.mp4",
 	"IfImage" : "false"
-	},
-	{
-	"first_A" : "can_40_2.png",
-	"second_B" : "can_40_after_2.png",
-	"IfImage" : "true"
 	},
 	{
 	"first_A" : "exercise_20_after.mp4",
@@ -225,38 +45,53 @@
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "longdress_20_after_1.png",
-	"second_B" : "longdress_20_1.png",
+	"first_A" : "can_40_after_1.png",
+	"second_B" : "can_40_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "skull_50_2.png",
-	"second_B" : "skull_50_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_20_after_1.png",
-	"second_B" : "earth_20_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_20.mp4",
-	"second_B" : "skull_20_after.mp4",
+	"first_A" : "statue_40_after.mp4",
+	"second_B" : "statue_40.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "can_50_after_2.png",
-	"second_B" : "can_50_2.png",
+	"first_A" : "longdress_30_after_2.png",
+	"second_B" : "longdress_30_2.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "earth_20_after.mp4",
-	"second_B" : "earth_20.mp4",
+	"first_A" : "can_20_1.png",
+	"second_B" : "can_20_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "exercise_30.mp4",
+	"second_B" : "exercise_30_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "exercise_20_1.png",
-	"second_B" : "exercise_20_after_1.png",
+	"first_A" : "basketball_40_1.png",
+	"second_B" : "basketball_40_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "soldier_30_2.png",
+	"second_B" : "soldier_30_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "dancer_20_after_2.png",
+	"second_B" : "dancer_20_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "soldier_frame_40.mp4",
+	"second_B" : "soldier_frame_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "earth_30_1.png",
+	"second_B" : "earth_30_after_1.png",
 	"IfImage" : "true"
 	},
 	{
@@ -265,193 +100,33 @@
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "longdress_30_after.mp4",
-	"second_B" : "longdress_30.mp4",
+	"first_A" : "statue_30.mp4",
+	"second_B" : "statue_30_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "statue_20.mp4",
-	"second_B" : "statue_20_after.mp4",
+	"first_A" : "longdress_frame_20.mp4",
+	"second_B" : "longdress_frame_20_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "basketball_30_2.png",
-	"second_B" : "basketball_30_after_2.png",
+	"first_A" : "dancer_40_1.png",
+	"second_B" : "dancer_40_after_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "statue_40_after_1.png",
-	"second_B" : "statue_40_1.png",
+	"first_A" : "basketball_30_after_2.png",
+	"second_B" : "basketball_30_2.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "soldier_20_2.png",
-	"second_B" : "soldier_20_after_2.png",
+	"first_A" : "statue_40_after_2.png",
+	"second_B" : "statue_40_2.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "skull_40_2.png",
-	"second_B" : "skull_40_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "exercise_40_after_1.png",
-	"second_B" : "exercise_40_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_20_2.png",
-	"second_B" : "earth_20_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_40_1.png",
-	"second_B" : "basketball_40_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_40_1.png",
-	"second_B" : "can_40_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "longdress_40_after_1.png",
-	"second_B" : "longdress_40_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "exercise_20_2.png",
-	"second_B" : "exercise_20_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "longdress_30_2.png",
-	"second_B" : "longdress_30_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_30_1.png",
-	"second_B" : "can_30_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_30_1.png",
-	"second_B" : "basketball_30_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_30_after_2.png",
-	"second_B" : "earth_30_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "statue_40.mp4",
-	"second_B" : "statue_40_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "skull_40_after.mp4",
-	"second_B" : "skull_40.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "soldier_50_after_2.png",
-	"second_B" : "soldier_50_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_50_after_2.png",
-	"second_B" : "basketball_50_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_50_after.mp4",
-	"second_B" : "earth_50.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "statue_40_2.png",
-	"second_B" : "statue_40_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "soldier_20_after_1.png",
-	"second_B" : "soldier_20_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "longdress_40_2.png",
-	"second_B" : "longdress_40_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_30_after_2.png",
-	"second_B" : "can_30_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_50.mp4",
-	"second_B" : "skull_50_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "exercise_40_after_2.png",
-	"second_B" : "exercise_40_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "soldier_40_after_2.png",
-	"second_B" : "soldier_40_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "statue_50_after_1.png",
-	"second_B" : "statue_50_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_50.mp4",
-	"second_B" : "can_50_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "skull_20_after_2.png",
-	"second_B" : "skull_20_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "exercise_50_2.png",
-	"second_B" : "exercise_50_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "basketball_40_2.png",
-	"second_B" : "basketball_40_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_40_after_2.png",
-	"second_B" : "earth_40_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "longdress_20_after_2.png",
-	"second_B" : "longdress_20_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "earth_30_1.png",
-	"second_B" : "earth_30_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_40_after_1.png",
-	"second_B" : "skull_40_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "longdress_40_after.mp4",
-	"second_B" : "longdress_40.mp4",
+	"first_A" : "can_30.mp4",
+	"second_B" : "can_30_after.mp4",
 	"IfImage" : "false"
 	},
 	{
@@ -460,54 +135,49 @@
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "soldier_40_1.png",
-	"second_B" : "soldier_40_after_1.png",
+	"first_A" : "basketball_30_1.png",
+	"second_B" : "basketball_30_after_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "exercise_30_after_2.png",
-	"second_B" : "exercise_30_2.png",
+	"first_A" : "exercise_40.mp4",
+	"second_B" : "exercise_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_40_after_1.png",
+	"second_B" : "longdress_40_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "basketball_50_after.mp4",
-	"second_B" : "basketball_50.mp4",
+	"first_A" : "earth_30_after.mp4",
+	"second_B" : "earth_30.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "can_20.mp4",
-	"second_B" : "can_20_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "basketball_20.mp4",
-	"second_B" : "basketball_20_after.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "can_30_after.mp4",
-	"second_B" : "can_30.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "exercise_40_after.mp4",
-	"second_B" : "exercise_40.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "longdress_50_after_1.png",
-	"second_B" : "longdress_50_1.png",
+	"first_A" : "exercise_20_after_1.png",
+	"second_B" : "exercise_20_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "statue_50_after.mp4",
-	"second_B" : "statue_50.mp4",
+	"first_A" : "earth_20_after.mp4",
+	"second_B" : "earth_20.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "soldier_50.mp4",
-	"second_B" : "soldier_50_after.mp4",
+	"first_A" : "longdress_30.mp4",
+	"second_B" : "longdress_30_after.mp4",
 	"IfImage" : "false"
+	},
+	{
+	"first_A" : "dancer_frame_40.mp4",
+	"second_B" : "dancer_frame_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_20_2.png",
+	"second_B" : "longdress_20_after_2.png",
+	"IfImage" : "true"
 	},
 	{
 	"first_A" : "skull_30_after_2.png",
@@ -515,34 +185,344 @@
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "earth_40_1.png",
-	"second_B" : "earth_40_after_1.png",
+	"first_A" : "basketball_frame_30.mp4",
+	"second_B" : "basketball_frame_30_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_frame_30.mp4",
+	"second_B" : "longdress_frame_30.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_40_after_1.png",
+	"second_B" : "soldier_40_1.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "skull_30_after_1.png",
-	"second_B" : "skull_30_1.png",
+	"first_A" : "statue_40_2.png",
+	"second_B" : "statue_40_after_2.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "soldier_40.mp4",
-	"second_B" : "soldier_40_after.mp4",
+	"first_A" : "earth_40_after_1.png",
+	"second_B" : "earth_40_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "dancer_30.mp4",
+	"second_B" : "dancer_30_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "longdress_50.mp4",
-	"second_B" : "longdress_50_after.mp4",
+	"first_A" : "earth_20.mp4",
+	"second_B" : "earth_20_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "earth_40_after.mp4",
-	"second_B" : "earth_40.mp4",
+	"first_A" : "basketball_40.mp4",
+	"second_B" : "basketball_40_after.mp4",
 	"IfImage" : "false"
 	},
 	{
-	"first_A" : "exercise_50_after.mp4",
-	"second_B" : "exercise_50.mp4",
+	"first_A" : "exercise_20_2.png",
+	"second_B" : "exercise_20_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "skull_20_2.png",
+	"second_B" : "skull_20_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "basketball_20_after_2.png",
+	"second_B" : "basketball_20_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "can_30_2.png",
+	"second_B" : "can_30_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "earth_40_2.png",
+	"second_B" : "earth_40_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "dancer_40.mp4",
+	"second_B" : "dancer_40_after.mp4",
 	"IfImage" : "false"
+	},
+	{
+	"first_A" : "skull_40_after_2.png",
+	"second_B" : "skull_40_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "exercise_40_2.png",
+	"second_B" : "exercise_40_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "basketball_30_after.mp4",
+	"second_B" : "basketball_30.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "exercise_20.mp4",
+	"second_B" : "exercise_20_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_40_2.png",
+	"second_B" : "longdress_40_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "earth_40.mp4",
+	"second_B" : "earth_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_frame_20_after.mp4",
+	"second_B" : "soldier_frame_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "skull_30_1.png",
+	"second_B" : "skull_30_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "exercise_frame_30_after.mp4",
+	"second_B" : "exercise_frame_30.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "dancer_40_2.png",
+	"second_B" : "dancer_40_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "can_20.mp4",
+	"second_B" : "can_20_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "dancer_frame_20.mp4",
+	"second_B" : "dancer_frame_20_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "statue_20.mp4",
+	"second_B" : "statue_20_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_40_1.png",
+	"second_B" : "longdress_40_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "exercise_frame_40.mp4",
+	"second_B" : "exercise_frame_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "dancer_30_1.png",
+	"second_B" : "dancer_30_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "skull_30.mp4",
+	"second_B" : "skull_30_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "dancer_20_after.mp4",
+	"second_B" : "dancer_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "basketball_frame_40_after.mp4",
+	"second_B" : "basketball_frame_40.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "skull_20_after_2.png",
+	"second_B" : "skull_20_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "dancer_30_after_1.png",
+	"second_B" : "dancer_30_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "earth_30_2.png",
+	"second_B" : "earth_30_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "exercise_40_after_1.png",
+	"second_B" : "exercise_40_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "statue_30_2.png",
+	"second_B" : "statue_30_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "longdress_20.mp4",
+	"second_B" : "longdress_20_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "basketball_frame_20_after.mp4",
+	"second_B" : "basketball_frame_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_30_1.png",
+	"second_B" : "longdress_30_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "can_40.mp4",
+	"second_B" : "can_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "exercise_30_after_2.png",
+	"second_B" : "exercise_30_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "longdress_40.mp4",
+	"second_B" : "longdress_40_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_30_after.mp4",
+	"second_B" : "soldier_30.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "earth_20_after_2.png",
+	"second_B" : "earth_20_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "soldier_40_after.mp4",
+	"second_B" : "soldier_40.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "statue_20_after.mp4",
+	"second_B" : "statue_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_40_after_2.png",
+	"second_B" : "soldier_40_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "longdress_frame_40_after.mp4",
+	"second_B" : "longdress_frame_40.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_30.mp4",
+	"second_B" : "soldier_30.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "basketball_20_after.mp4",
+	"second_B" : "basketball_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_20_after_1.png",
+	"second_B" : "soldier_20_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "skull_40_1.png",
+	"second_B" : "skull_40_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "statue_40_1.png",
+	"second_B" : "statue_40_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "basketball_40_after_2.png",
+	"second_B" : "basketball_40_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "statue_20_after_2.png",
+	"second_B" : "statue_20_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "skull_20_after.mp4",
+	"second_B" : "skull_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "longdress_20_after_1.png",
+	"second_B" : "longdress_20_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "exercise_frame_20_after.mp4",
+	"second_B" : "exercise_frame_20.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "earth_20_1.png",
+	"second_B" : "earth_20_after_1.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "soldier_frame_30_after.mp4",
+	"second_B" : "soldier_frame_30.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "can_40_2.png",
+	"second_B" : "can_40_after_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "skull_40_after.mp4",
+	"second_B" : "skull_40.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "soldier_frame_30.mp4",
+	"second_B" : "soldier_frame_30_after.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "can_20_after_2.png",
+	"second_B" : "can_20_2.png",
+	"IfImage" : "true"
+	},
+	{
+	"first_A" : "basketball_40_after.mp4",
+	"second_B" : "basketball_40.mp4",
+	"IfImage" : "false"
+	},
+	{
+	"first_A" : "exercise_30_1.png",
+	"second_B" : "exercise_30_after_1.png",
+	"IfImage" : "true"
 	},
 	{
 	"first_A" : "statue_20_after_1.png",
@@ -550,33 +530,13 @@
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "can_20_2.png",
-	"second_B" : "can_20_after_2.png",
+	"first_A" : "soldier_20_after_2.png",
+	"second_B" : "soldier_20_2.png",
 	"IfImage" : "true"
 	},
 	{
-	"first_A" : "basketball_20_2.png",
-	"second_B" : "basketball_20_after_2.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "exercise_50_1.png",
-	"second_B" : "exercise_50_after_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "can_50_after_1.png",
-	"second_B" : "can_50_1.png",
-	"IfImage" : "true"
-	},
-	{
-	"first_A" : "skull_30_after.mp4",
-	"second_B" : "skull_30.mp4",
-	"IfImage" : "false"
-	},
-	{
-	"first_A" : "soldier_30_after_1.png",
-	"second_B" : "soldier_30_1.png",
+	"first_A" : "skull_20_after_1.png",
+	"second_B" : "skull_20_1.png",
 	"IfImage" : "true"
 	}
 ]
