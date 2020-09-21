@@ -540,6 +540,7 @@ class MainComponent {
         this.src_video_path1 = "";
         this.src_video_path2 = "";
         this.start_button_disable = false;
+        this.submit_button_disable = true;
         this.file_index = 0;
         this.save_result = new _result__WEBPACK_IMPORTED_MODULE_2__["result_all"]();
         this.GenderControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required);
@@ -570,6 +571,15 @@ class MainComponent {
             this.save_result.chosen_file = "file" + this.user_file_index + ".json";
             console.log(this.user_file_path);
             console.log("1");
+            this.submit_button_disable = true;
+            (() => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+                // Do something before delay
+                console.log('before delay 2');
+                yield this.delay(5000);
+                this.submit_button_disable = false;
+                // Do something after
+                console.log('after delay 2');
+            }))();
             this.httpClient.get(this.user_file_path).subscribe(data => {
                 this.orders = data;
                 console.log(this.orders);
@@ -625,6 +635,15 @@ class MainComponent {
         }
         else {
             this.hide_switch = true;
+            this.submit_button_disable = true;
+            (() => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+                // Do something before delay
+                console.log('before delay 2');
+                yield this.delay(5000);
+                this.submit_button_disable = false;
+                // Do something after
+                console.log('after delay 2');
+            }))();
             this.save_result.recorded_result.push(new _result__WEBPACK_IMPORTED_MODULE_2__["result"]());
             this.save_result.recorded_result[this.file_index].id = this.file_index;
             this.save_result.recorded_result[this.file_index].choice = this.userchoice;
@@ -1094,7 +1113,7 @@ MainComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.hide_switch);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("disabled", !ctx.start_button_disable);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("disabled", ctx.submit_button_disable);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("Progress:", ctx.file_index, "/50");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);

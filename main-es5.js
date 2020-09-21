@@ -1040,6 +1040,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.src_video_path1 = "";
         this.src_video_path2 = "";
         this.start_button_disable = false;
+        this.submit_button_disable = true;
         this.file_index = 0;
         this.save_result = new _result__WEBPACK_IMPORTED_MODULE_2__["result_all"]();
         this.GenderControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required);
@@ -1066,12 +1067,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "StartTest",
         value: function StartTest() {
-          return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+          return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
             var _this3 = this;
 
-            return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            return regeneratorRuntime.wrap(function _callee3$(_context3) {
               while (1) {
-                switch (_context2.prev = _context2.next) {
+                switch (_context3.prev = _context3.next) {
                   case 0:
                     this.start_button_disable = true;
                     this.user_file_index = Math.floor(Math.random() * 40) + 1; //this.user_file_index = 1;
@@ -1080,6 +1081,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     this.save_result.chosen_file = "file" + this.user_file_index + ".json";
                     console.log(this.user_file_path);
                     console.log("1");
+                    this.submit_button_disable = true;
+
+                    (function () {
+                      return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this3, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+                        return regeneratorRuntime.wrap(function _callee$(_context) {
+                          while (1) {
+                            switch (_context.prev = _context.next) {
+                              case 0:
+                                // Do something before delay
+                                console.log('before delay 2');
+                                _context.next = 3;
+                                return this.delay(5000);
+
+                              case 3:
+                                this.submit_button_disable = false; // Do something after
+
+                                console.log('after delay 2');
+
+                              case 5:
+                              case "end":
+                                return _context.stop();
+                            }
+                          }
+                        }, _callee, this);
+                      }));
+                    })();
+
                     this.httpClient.get(this.user_file_path).subscribe(function (data) {
                       _this3.orders = data;
                       console.log(_this3.orders);
@@ -1090,14 +1118,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                       if (_this3.show_images == false) {
                         (function () {
-                          return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this3, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-                            return regeneratorRuntime.wrap(function _callee$(_context) {
+                          return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this3, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+                            return regeneratorRuntime.wrap(function _callee2$(_context2) {
                               while (1) {
-                                switch (_context.prev = _context.next) {
+                                switch (_context2.prev = _context2.next) {
                                   case 0:
                                     // Do something before delay
                                     console.log('before delay');
-                                    _context.next = 3;
+                                    _context2.next = 3;
                                     return this.delay(1000);
 
                                   case 3:
@@ -1108,21 +1136,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                                   case 6:
                                   case "end":
-                                    return _context.stop();
+                                    return _context2.stop();
                                 }
                               }
-                            }, _callee, this);
+                            }, _callee2, this);
                           }));
                         })();
                       }
                     });
 
-                  case 7:
+                  case 9:
                   case "end":
-                    return _context2.stop();
+                    return _context3.stop();
                 }
               }
-            }, _callee2, this);
+            }, _callee3, this);
           }));
         }
       }, {
@@ -1141,14 +1169,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.hide_training_session = false;
 
           (function () {
-            return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this4, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
-              return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this4, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+              return regeneratorRuntime.wrap(function _callee4$(_context4) {
                 while (1) {
-                  switch (_context3.prev = _context3.next) {
+                  switch (_context4.prev = _context4.next) {
                     case 0:
                       // Do something before delay
                       console.log('before delay');
-                      _context3.next = 3;
+                      _context4.next = 3;
                       return this.delay(1000);
 
                     case 3:
@@ -1167,10 +1195,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                     case 14:
                     case "end":
-                      return _context3.stop();
+                      return _context4.stop();
                   }
                 }
-              }, _callee3, this);
+              }, _callee4, this);
             }));
           })();
         }
@@ -1184,6 +1212,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             //this.router.navigate(['/iloveu']);
           } else {
             this.hide_switch = true;
+            this.submit_button_disable = true;
+
+            (function () {
+              return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this5, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+                return regeneratorRuntime.wrap(function _callee5$(_context5) {
+                  while (1) {
+                    switch (_context5.prev = _context5.next) {
+                      case 0:
+                        // Do something before delay
+                        console.log('before delay 2');
+                        _context5.next = 3;
+                        return this.delay(5000);
+
+                      case 3:
+                        this.submit_button_disable = false; // Do something after
+
+                        console.log('after delay 2');
+
+                      case 5:
+                      case "end":
+                        return _context5.stop();
+                    }
+                  }
+                }, _callee5, this);
+              }));
+            })();
+
             this.save_result.recorded_result.push(new _result__WEBPACK_IMPORTED_MODULE_2__["result"]());
             this.save_result.recorded_result[this.file_index].id = this.file_index;
             this.save_result.recorded_result[this.file_index].choice = this.userchoice;
@@ -1201,14 +1256,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
               if (this.show_images == false) {
                 (function () {
-                  return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this5, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
-                    return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                  return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(_this5, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
+                    return regeneratorRuntime.wrap(function _callee6$(_context6) {
                       while (1) {
-                        switch (_context4.prev = _context4.next) {
+                        switch (_context6.prev = _context6.next) {
                           case 0:
                             // Do something before delay
                             console.log('before delay');
-                            _context4.next = 3;
+                            _context6.next = 3;
                             return this.delay(1000);
 
                           case 3:
@@ -1219,10 +1274,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                           case 6:
                           case "end":
-                            return _context4.stop();
+                            return _context6.stop();
                         }
                       }
-                    }, _callee4, this);
+                    }, _callee6, this);
                   }));
                 })();
               }
@@ -2124,7 +2179,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("disabled", !ctx.start_button_disable);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("disabled", ctx.submit_button_disable);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
 
