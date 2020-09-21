@@ -1004,9 +1004,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function MainComponent_mat_radio_button_338_Template(rf, ctx) {
+    function MainComponent_mat_radio_button_211_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-radio-button", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-radio-button", 53);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
 
@@ -1030,7 +1030,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.httpClient = httpClient;
         this.sanitizer = sanitizer;
-        this.userchoice = "";
+        this.userchoice = null;
         this.hide_switch = true;
         this.hide_training_session = true;
         this.hide_testing_session = true;
@@ -1179,7 +1179,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function JumpTo() {
           var _this5 = this;
 
-          if (this.userchoice === "") {
+          if (this.userchoice === null) {
             this.hide_switch = false; //this.alertService.error("Try again!");
             //this.router.navigate(['/iloveu']);
           } else {
@@ -1189,7 +1189,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.save_result.recorded_result[this.file_index].choice = this.userchoice;
             this.file_index = this.file_index + 1;
 
-            if (this.file_index === 108) {
+            if (this.file_index === 50) {
               console.log(this.save_result);
               this.hide_testing_session = true;
               this.hide_save_session = false;
@@ -1301,9 +1301,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.vidB = _t.first);
         }
       },
-      decls: 360,
-      vars: 68,
-      consts: [[1, "form-group"], [1, "title"], [3, "hidden"], [1, "Subtitle"], [2, "text-align", "center"], [1, "example-full-width"], ["matInput", "", "type", "text", 3, "ngModel", "ngModelChange"], ["matInput", "", "type", "number", 3, "ngModel", "ngModelChange"], ["required", "", 3, "formControl", "value", "valueChange"], ["value", "option1"], ["value", "option2"], ["value", "option3"], [4, "ngIf"], ["mat-stroked-button", "", "color", "primary", 3, "click"], [1, "intro2", 2, "width", "50%", "border", "1px solid black", "margin", "0 auto"], [1, "intro"], ["cols", "2", "rowHeight", "3:4"], [3, "colspan", "rowspan"], [1, "SmallTitle"], ["src", "../assets/videos/redandblack_40_after.mp4", "preload", "", "controls", "", "muted", "", "autoPlay", "", "loop", "", "playsinline", ""], ["vid1", ""], ["src", "../assets/videos/redandblack_40.mp4", "preload", "", "controls", "", "muted", "", "autoPlay", "", "loop", "", "playsinline", ""], ["vid2", ""], [1, "explanation"], ["src", "../assets/videos/redandblack_30_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid3", ""], ["src", "../assets/videos/redandblack_30.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid4", ""], ["src", "../assets/videos/redandblack_20_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid5", ""], ["src", "../assets/videos/redandblack_20.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid6", ""], ["vid7", ""], ["vid8", ""], ["src", "../assets/videos/redandblack_40.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid9", ""], ["src", "../assets/videos/redandblack_40_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid10", ""], ["src", "../assets/images/showcase1_after.png"], ["src", "../assets/images/showcase1.png"], ["src", "../assets/images/showcase3_after.png"], ["src", "../assets/images/showcase3.png"], ["src", "../assets/images/showcase2_after.png"], ["src", "../assets/images/showcase2.png"], ["cols", "8", "rowHeight", "1:4"], [3, "colspan"], [1, "SmallTitle2"], ["controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", "", 3, "src"], ["vidA", ""], [3, "src"], ["controls", "", "muted", "", "autoPlay", "", "loop", "", "playsinline", "", 3, "src"], ["vidB", ""], ["mat-stroked-button", "", "color", "primary", 3, "disabled", "click"], ["id", "example-radio-group-label"], ["aria-labelledby", "example-radio-group-label", 1, "example-radio-group", 3, "ngModel", "ngModelChange"], ["class", "example-radio-button", 3, "value", 4, "ngFor", "ngForOf"], [2, "color", "red", 3, "hidden"], [2, "text-align", "center", 3, "hidden"], ["download", "experiment-result.json", 3, "href"], [1, "example-radio-button", 3, "value"]],
+      decls: 233,
+      vars: 48,
+      consts: [[1, "form-group"], [1, "title"], [3, "hidden"], [1, "Subtitle"], [2, "text-align", "center"], [1, "example-full-width"], ["matInput", "", "type", "text", 3, "ngModel", "ngModelChange"], ["matInput", "", "type", "number", 3, "ngModel", "ngModelChange"], ["required", "", 3, "formControl", "value", "valueChange"], ["value", "option1"], ["value", "option2"], ["value", "option3"], [4, "ngIf"], ["mat-stroked-button", "", "color", "primary", 3, "click"], [1, "intro2", 2, "width", "50%", "border", "1px solid black", "margin", "0 auto"], [1, "intro"], ["cols", "2", "rowHeight", "3:4"], [3, "colspan", "rowspan"], [1, "SmallTitle"], ["src", "../assets/videos/longdress_40_after.mp4", "preload", "", "controls", "", "muted", "", "autoPlay", "", "loop", "", "playsinline", ""], ["vid1", ""], ["src", "../assets/videos/longdress_40.mp4", "preload", "", "controls", "", "muted", "", "autoPlay", "", "loop", "", "playsinline", ""], ["vid2", ""], [1, "explanation"], ["src", "../assets/videos/longdress_30_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid3", ""], ["src", "../assets/videos/longdress_30.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid4", ""], ["src", "../assets/videos/longdress_20_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid5", ""], ["src", "../assets/videos/longdress_20.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid6", ""], ["vid7", ""], ["vid8", ""], ["src", "../assets/videos/longdress_40.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid9", ""], ["src", "../assets/videos/longdress_40_after.mp4", "controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", ""], ["vid10", ""], ["cols", "8", "rowHeight", "1:4"], [3, "colspan"], [1, "SmallTitle2"], ["controls", "", "muted", "", "autoplay", "", "loop", "", "playsinline", "", 3, "src"], ["vidA", ""], [3, "src"], ["controls", "", "muted", "", "autoPlay", "", "loop", "", "playsinline", "", 3, "src"], ["vidB", ""], ["mat-stroked-button", "", "color", "primary", 3, "disabled", "click"], ["id", "example-radio-group-label"], ["aria-labelledby", "example-radio-group-label", 1, "example-radio-group", 3, "ngModel", "ngModelChange"], ["class", "example-radio-button", 3, "value", 4, "ngFor", "ngForOf"], [2, "color", "red", 3, "hidden"], [2, "text-align", "center", 3, "hidden"], ["download", "experiment-result.json", 3, "href"], [1, "example-radio-button", 3, "value"]],
       template: function MainComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -1448,7 +1448,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "div", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " This experiment is to compare visual quality of shown video pairs or image pairs. You will be shown video pairs and image pairs in random order. Below lists a few example of video and image pairs as guidence for standard you need to stick to during the experiment. The whole experiment will last around 25 mins.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " This experiment is to compare visual quality of shown video pairs. You will be shown video pairs in random order. Below lists a few example of video pairs as guidence for standard you need to stick to during the experiment. The whole experiment will last around 20 mins.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1470,55 +1470,55 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](47, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "mat-grid-list", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "mat-grid-list", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](49, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](49, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Left:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](51, "Left:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](53, "video", 19, 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](57, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](58, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](59, "video", 21, 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](52, "video", 19, 20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "h2", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](62, " Left has much better quality than Right. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](63, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](64, " Because right has more severe cracks on surface which affect visual quality. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](58, "video", 21, 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "h2", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](61, " Left has much better quality than Right. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](63, " Because right has more severe cracks on surface which affect visual quality. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](64, "br");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](65, "br");
 
@@ -1538,55 +1538,55 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](73, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](74, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "mat-grid-list", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](75, "mat-grid-list", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](75, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](77, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](77, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](79, "Left:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](78, "Left:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](80, "video", 24, 25);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](82, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](84, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](85, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](86, "video", 26, 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](79, "video", 24, 25);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](81, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](88, "h2", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](82, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](89, " Left has a little better quality than Right. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](91, " Because right has some small holes and cracks on surface. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](84, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](85, "video", 26, 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "h2", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](88, " Left has a little better quality than Right. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](89, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](90, " Because right has some small holes and cracks on surface, especially on face region. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](91, "br");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](92, "br");
 
@@ -1606,55 +1606,55 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](100, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](101, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](101, "mat-grid-list", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "mat-grid-list", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](103, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](103, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](104, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](104, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](105, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](106, "Left:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](105, "Left:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](107, "video", 28, 29);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](109, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](110, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](111, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](112, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](113, "video", 30, 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](106, "video", 28, 29);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](108, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](115, "h2", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](109, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](116, " Left and Right have similar quality. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](110, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](117, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](118, " We can hardly tell difference between right and right. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](111, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](112, "video", 30, 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](114, "h2", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](115, " Left and Right have similar quality. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](116, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](117, " We can hardly tell difference between right and right. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](118, "br");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](119, "br");
 
@@ -1674,55 +1674,55 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](127, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](128, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](128, "mat-grid-list", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](129, "mat-grid-list", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](129, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](130, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](130, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](131, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](131, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](132, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](133, "Left:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](132, "Left:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](134, "video", 26, 32);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](136, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](137, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](138, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](139, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](140, "video", 24, 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](133, "video", 26, 32);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](135, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](142, "h2", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](136, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](143, " Left has a little worse quality than Right. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](137, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](144, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](145, " Because left has some small holes and cracks on surface. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](138, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](139, "video", 24, 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](141, "h2", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](142, " Left has a little worse quality than Right. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](143, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](144, " Because left has some small holes and cracks on surface. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](145, "br");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](146, "br");
 
@@ -1742,561 +1742,213 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](154, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](155, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](155, "mat-grid-list", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](156, "mat-grid-list", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](156, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](157, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](157, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](158, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](158, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](159, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](160, "Left:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](159, "Left:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](161, "video", 34, 35);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](163, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](164, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](165, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](166, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](167, "video", 36, 37);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](160, "video", 34, 35);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](162, "mat-grid-tile", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](169, "h2", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](163, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](170, " Left has much worse quality than Right. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](164, "div", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](171, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](172, " Because left has more severe cracks on surface which affect visual quality. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](165, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](173, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](166, "video", 36, 37);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](174, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](168, "h2", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](169, " Left has much worse quality than Right. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](170, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](171, " Because left has more severe cracks on surface which affect visual quality. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](172, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](173, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](174, "When you are ready for the experiment, please click 'Finish Training' button below and click 'Start Test' button of next page.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](175, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](176, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](176, "div", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](177, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](177, "button", 13);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](178, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_177_listener() {
+            return ctx.FinishTraining();
+          });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](179, "h3", 15);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](180, "Image Examples:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](178, "Finish Training");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](181, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](182, "mat-grid-list", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](179, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](183, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](180, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](184, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](185, "div", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](181, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](182, "mat-grid-list", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](183, "mat-grid-tile", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](184, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](185, "div", 40);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](186, "Left:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](187, "img", 38);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](187, "video", 41, 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](189, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](190, "div", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](191, "Left:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](192, "img", 43);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](188, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](193, "mat-grid-tile", 39);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](189, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](194, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](190, "div", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](195, "div", 40);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](191, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](192, "img", 39);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](196, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](197, "video", 44, 45);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](193, "h2", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](199, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](194, " Left has much better quality than Right. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](200, "div", 40);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](195, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](196, " Because right has large cracks on surface. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](201, "Right:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](197, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](198, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](199, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](200, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](201, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](202, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](203, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](204, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](205, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](206, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](207, "mat-grid-list", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](208, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](209, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](210, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](211, "Left:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](212, "img", 40);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](202, "img", 43);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](213, "mat-grid-tile", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](203, "mat-grid-tile", 39);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](214, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](204, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](215, "div", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](205, "button", 46);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](216, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](217, "img", 41);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](218, "h2", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](219, " Left has a little better quality than Right. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](220, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](221, " Because right has small cracks on surface. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](222, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](223, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](224, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](225, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](226, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](227, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](228, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](229, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](230, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](231, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](232, "mat-grid-list", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](233, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](234, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](235, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](236, "Left:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](237, "img", 42);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](238, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](239, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](240, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](241, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](242, "img", 43);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](243, "h2", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](244, " Left and Right have similar quality. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](245, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](246, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](247, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](248, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](249, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](250, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](251, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](252, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](253, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](254, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](255, "mat-grid-list", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](256, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](257, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](258, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](259, "Left:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](260, "img", 41);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](261, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](262, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](263, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](264, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](265, "img", 40);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](266, "h2", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](267, " Left has a little worse quality than Right. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](268, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](269, " Because left has small cracks on surface. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](270, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](271, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](272, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](273, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](274, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](275, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](276, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](277, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](278, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](279, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](280, "mat-grid-list", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](281, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](282, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](283, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](284, "Left:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](285, "img", 39);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](286, "mat-grid-tile", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](287, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](288, "div", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](289, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](290, "img", 38);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](291, "h2", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](292, " Left has much worse quality than Right. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](293, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](294, " Because left has large cracks on surface. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](295, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](296, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](297, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](298, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](299, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](300, "div", 14);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](301, "When you are ready for the experiment, please click 'Finish Training' button below and click 'Start Test' button of next page.");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](302, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](303, "div", 4);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](304, "button", 13);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_304_listener() {
-            return ctx.FinishTraining();
-          });
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](305, "Finish Training");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](306, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](307, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](308, "div", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](309, "mat-grid-list", 44);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](310, "mat-grid-tile", 45);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](311, "div", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](312, "div", 46);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](313, "Left:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](314, "video", 47, 48);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](316, "div", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](317, "div", 46);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](318, "Left:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](319, "img", 49);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](320, "mat-grid-tile", 45);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](321, "div", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](322, "div", 46);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](323, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](324, "video", 50, 51);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](326, "div", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](327, "div", 46);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](328, "Right:");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](329, "img", 49);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](330, "mat-grid-tile", 45);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](331, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](332, "button", 52);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_332_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_205_listener() {
             return ctx.StartTest();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](333, "Start Test");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](206, "Start Test");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](334, "div", 53);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](207, "div", 47);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](335, "Make your choice:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](208, "Make your choice:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](336, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](209, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](337, "mat-radio-group", 54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](210, "mat-radio-group", 48);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function MainComponent_Template_mat_radio_group_ngModelChange_337_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function MainComponent_Template_mat_radio_group_ngModelChange_210_listener($event) {
             return ctx.userchoice = $event;
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](338, MainComponent_mat_radio_button_338_Template, 2, 2, "mat-radio-button", 55);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](211, MainComponent_mat_radio_button_211_Template, 2, 2, "mat-radio-button", 49);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](339, "div", 56);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](212, "div", 50);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](340, " Please make a choice");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](213, " Please make a choice");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](341, "button", 52);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](214, "button", 46);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_341_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MainComponent_Template_button_click_214_listener() {
             return ctx.JumpTo();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](342, "Submit");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](215, "Submit");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](343, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](216, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](344, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](217, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](345, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](218, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](346, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](219, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](347, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](220, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](348, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](221, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](349, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](222, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](350, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](223, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](351);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](224);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -2304,25 +1956,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](352, "div", 57);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](353, "h1");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](354, "You've finished the experiment! Thank you very much!");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](355, "h2");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](225, "div", 51);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](356, "Please download the file and send it as attachment to k5cao@eng.ucsd.edu");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](226, "h1");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](227, "You've finished the experiment! Thank you very much!");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](357, "a", 58);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](228, "h2");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](358, "button");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](229, "Please download the file and send it as attachment to k5cao@eng.ucsd.edu");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](359, "Download");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](230, "a", 52);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](231, "button");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](232, "Download");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -2362,7 +2018,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.hide_training_session);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](12);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
 
@@ -2402,47 +2058,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("colspan", 1)("rowspan", 1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.hide_testing_session);
 
@@ -2512,7 +2128,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("Progress:", ctx.file_index, "/108");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("Progress:", ctx.file_index, "/50");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
