@@ -1503,7 +1503,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "div", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " This experiment is to compare visual quality of shown video pairs. You will be shown video pairs in random order. Below lists a few example of video pairs as guidence for standard you need to stick to during the experiment. The whole experiment will last around 20 mins.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " This experiment aims to compare the visual quality of videos which have undergone processing. You will be shown video pairs in a random order. Below are a few examples of video pairs.\xA0 These examples give you an idea of the level of difference you can expect to see during the experiment, and will help you calibrate your responses regarding what constitutes \"much better\" or a \"little better\" quality.\xA0 During the experiment you will be asked to make 50 comparisons, and the whole experiment will last around 20 minutes.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -2370,4 +2370,4 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /***/
   }
 }, [[0, "runtime", "vendor"]]]);
-//# sourceMappingURL=main-es5.459087fc20af7c512e92.js.map
+//# sourceMappingURL=main-es5.0cc299709a6057a4ad0d.js.map

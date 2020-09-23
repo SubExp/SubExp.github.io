@@ -779,7 +779,7 @@ MainComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " This experiment is to compare visual quality of shown video pairs. You will be shown video pairs in random order. Below lists a few example of video pairs as guidence for standard you need to stick to during the experiment. The whole experiment will last around 20 mins.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " This experiment aims to compare the visual quality of videos which have undergone processing. You will be shown video pairs in a random order. Below are a few examples of video pairs.\u00A0 These examples give you an idea of the level of difference you can expect to see during the experiment, and will help you calibrate your responses regarding what constitutes \"much better\" or a \"little better\" quality.\u00A0 During the experiment you will be asked to make 50 comparisons, and the whole experiment will last around 20 minutes.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](40, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "h2", 3);
@@ -1236,4 +1236,4 @@ module.exports = __webpack_require__(/*! /Users/Daybreak1/Documents/Resource/Stu
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
-//# sourceMappingURL=main-es2015.459087fc20af7c512e92.js.map
+//# sourceMappingURL=main-es2015.0cc299709a6057a4ad0d.js.map
